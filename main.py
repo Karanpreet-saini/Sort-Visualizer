@@ -8,7 +8,7 @@ from insertion import insertion
 
 
 root = Tk()
-root.title("Quick Sort Visualizer")
+root.title("Sort Visualizer")
 
 root.maxsize(900, 600)
 root.config(bg="white")
@@ -87,7 +87,7 @@ def start_algorithm():
 		drawData(data, ['Green' for x in range(len(data))])
 
 
-Mainframe = Frame(root, width=600, height=200, bg="Grey")
+Mainframe = Frame(root, width=600, height=200, bg="Black")
 Mainframe.grid(row=0, column=0, padx=10, pady=5)
 
 canvas = Canvas(root, width=600, height=380, bg="Grey")
